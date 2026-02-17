@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
+import { BASE_PATH } from "@/lib/utils";
+
 export default function About() {
   return (
     <section id="sobre" className="py-20 bg-background overflow-hidden relative">
@@ -15,7 +17,7 @@ export default function About() {
           className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-xl"
         >
           <Image
-            src="/Ricardo_Montanari_perfil.png"
+            src={`${BASE_PATH}/Ricardo_Montanari_perfil.png`}
             alt="Foto de perfil do Dr. Ricardo Montanari"
             fill
             className="object-cover"

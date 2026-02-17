@@ -5,6 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
+import { BASE_PATH } from "@/lib/utils";
+
 export default function Hero() {
   return (
     <section
@@ -51,7 +53,7 @@ export default function Hero() {
         >
           <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/Ricardo_Montanari.png"
+              src={`${BASE_PATH}/Ricardo_Montanari.png`}
               alt="Dr. Ricardo Montanari em seu consultório"
               fill
               className="object-cover"
