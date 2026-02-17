@@ -1,7 +1,18 @@
 {
-  "name": "site-psicologo",
-  "version": "0.1.0",
+  "name": "site-psicologo-ricardo",
+  "version": "1.0.0",
   "private": true,
+  "description": "Website institucional oficial do Psicólogo Clínico Ricardo Montanari, desenvolvido com Next.js e TypeScript.",
+  "author": "Ednan <seu-email@exemplo.com>",
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "framer-motion",
+    "psicologia",
+    "website"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

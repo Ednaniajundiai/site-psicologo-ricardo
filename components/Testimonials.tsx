@@ -48,9 +48,9 @@ export default function Testimonials() {
               className="bg-background p-8 rounded-2xl relative shadow-sm border border-gray-100"
             >
               <Quote className="absolute top-6 right-6 text-secondary/20 w-10 h-10" />
-              <p className="text-gray-600 italic mb-6 leading-relaxed">
-                "{t.text}"
-              </p>
+            <p className="text-gray-600 italic mb-6 leading-relaxed">
+              &quot;{t.text}&quot;
+            </p>
               <div>
                 <p className="font-serif font-semibold text-primary">{t.author}</p>
                 <p className="text-sm text-gray-500">{t.role}</p>

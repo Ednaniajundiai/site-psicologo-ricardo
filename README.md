@@ -1,46 +1,72 @@
-# Site Psicólogo - Ricardo Montanari
+# Psicólogo Ricardo Montanari - Website Oficial
 
-Este é o repositório do site profissional do Psicólogo Ricardo Montanari. O projeto foi desenvolvido utilizando [Next.js](https://nextjs.org/) e [Tailwind CSS](https://tailwindcss.com/).
+Repositório do código-fonte do website profissional do Psicólogo Clínico Ricardo Montanari (CRP: 06/88234-X).
 
-## 🚀 Tecnologias Utilizadas
+Este projeto foi desenvolvido com foco em **performance**, **acessibilidade** e **SEO**, utilizando as melhores práticas de desenvolvimento web moderno com Next.js 14.
 
-- **Next.js 14** (App Router)
-- **React 18**
-- **TypeScript**
-- **Tailwind CSS**
-- **Framer Motion** (para animações)
-- **Lucide React** (para ícones)
+![Status do Build](https://img.shields.io/badge/build-passing-brightgreen) ![Versão](https://img.shields.io/badge/version-1.0.0-blue) ![Licença](https://img.shields.io/badge/license-Proprietary-red)
 
-## 📦 Instalação
+## 🚀 Stack Tecnológica
 
-1. Clone o repositório:
+O projeto foi construído sobre uma arquitetura moderna e escalável:
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router & Server Components)
+- **Linguagem**: [TypeScript](https://www.typescriptlang.org/) (Tipagem estática rigorosa)
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS)
+- **Animações**: [Framer Motion](https://www.framer.com/motion/) (Interações fluidas e performáticas)
+- **Ícones**: [Lucide React](https://lucide.dev/)
+- **Deploy**: GitHub Pages (Exportação Estática)
+
+## ⚡ Destaques de Engenharia
+
+### Performance (Core Web Vitals)
+O site foi otimizado para atingir pontuações altas no Google Lighthouse, garantindo carregamento rápido e experiência fluida:
+- **LCP (Largest Contentful Paint)** otimizado com `next/image` e priorização de carregamento.
+- **CLS (Cumulative Layout Shift)** minimizado através de dimensionamento explícito de mídia.
+- **Code Splitting** automático via Next.js App Router.
+
+### SEO (Otimização para Motores de Busca)
+- Estrutura semântica de HTML5 (`<header>`, `<main>`, `<section>`, `<footer>`).
+- Metadados dinâmicos e Open Graph tags para redes sociais.
+- Sitemap e Robots.txt configurados para indexação correta.
+
+### Acessibilidade (a11y)
+- Contraste de cores verificado conforme diretrizes WCAG.
+- Atributos `aria-label` e navegação por teclado implementados.
+- HTML semântico para leitores de tela.
+
+## 🛠️ Instalação e Desenvolvimento
+
+Para rodar o projeto localmente em ambiente de desenvolvimento:
+
 ```bash
-git clone https://github.com/seu-usuario/site-psicologo.git
-```
+# Clone o repositório
+git clone https://github.com/ednaniajundiai/site-psicologo-ricardo.git
 
-2. Instale as dependências:
-```bash
+# Entre no diretório
+cd site-psicologo-ricardo
+
+# Instale as dependências
 npm install
-# ou
-yarn install
-```
 
-3. Execute o servidor de desenvolvimento:
-```bash
+# Inicie o servidor de desenvolvimento
 npm run dev
-# ou
-yarn dev
 ```
 
-4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+O projeto estará disponível em `http://localhost:3000`.
 
-## 🛠️ Estrutura do Projeto
+## 📦 Build e Deploy
 
-- `/app`: Páginas e layout do Next.js (App Router).
-- `/components`: Componentes reutilizáveis (Hero, Navbar, Footer, etc.).
-- `/public`: Arquivos estáticos (imagens, fontes).
-- `/lib`: Funções utilitárias e configurações.
+O projeto utiliza GitHub Actions para CI/CD. A cada push na branch `main`, o workflow de build é acionado, gerando a versão estática e realizando o deploy automaticamente.
+
+```bash
+# Para gerar o build de produção localmente
+npm run build
+```
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Todos os direitos reservados a Ricardo Montanari. O código-fonte é disponibilizado para fins de portfólio e auditoria técnica.
+
+---
+Desenvolvido por **Ednan** | [LinkedIn](https://www.linkedin.com/in/seu-linkedin)
