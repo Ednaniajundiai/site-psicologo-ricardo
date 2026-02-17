@@ -18,13 +18,13 @@ export default function About() {
         >
           <Image
             src={`${BASE_PATH}/Ricardo_Montanari_perfil.png`}
-            alt="Foto de perfil do Dr. Ricardo Montanari"
+            alt="Foto de perfil do Ricardo Montanari"
             fill
             className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent"></div>
           <div className="absolute bottom-6 left-6 text-white">
-            <p className="font-serif text-2xl">Dr. Ricardo Montanari</p>
+            <p className="font-serif text-2xl">Ricardo Montanari</p>
             <p className="text-sm opacity-90">CRP: 06/88234-X</p>
           </div>
         </motion.div>

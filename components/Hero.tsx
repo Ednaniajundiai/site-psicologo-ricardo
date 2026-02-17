@@ -54,7 +54,7 @@ export default function Hero() {
           <div className="absolute inset-0 rounded-2xl overflow-hidden shadow-2xl">
             <Image
               src={`${BASE_PATH}/Ricardo_Montanari.png`}
-              alt="Dr. Ricardo Montanari em seu consultório"
+              alt="Ricardo Montanari em seu consultório"
               fill
               className="object-cover"
               priority

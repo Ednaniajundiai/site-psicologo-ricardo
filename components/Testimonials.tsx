@@ -5,7 +5,7 @@ import { Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "O processo terapêutico com o Dr. Ricardo foi um divisor de águas. Consegui entender padrões que repetia há anos e finalmente me sinto no controle das minhas escolhas.",
+    text: "O processo terapêutico com o Ricardo foi um divisor de águas. Consegui entender padrões que repetia há anos e finalmente me sinto no controle das minhas escolhas.",
     author: "Marcos S.",
     role: "Empresário",
   },

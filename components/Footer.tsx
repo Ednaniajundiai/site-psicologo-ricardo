@@ -6,7 +6,7 @@ export default function Footer() {
     <footer id="contato" className="bg-primary text-white pt-20 pb-10">
       <div className="container mx-auto px-4 md:px-8 grid md:grid-cols-3 gap-12 mb-16">
         <div>
-          <h3 className="font-serif text-2xl font-bold mb-6">Dr. Ricardo Montanari</h3>
+          <h3 className="font-serif text-2xl font-bold mb-6">Ricardo Montanari</h3>
           <p className="text-gray-300 mb-4 max-w-sm">
             Psicologia Analítica (Junguiana) focada no desenvolvimento humano e saúde mental integral.
           </p>
@@ -51,7 +51,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10 pt-8 text-center text-gray-400 text-sm">
-        <p>&copy; {new Date().getFullYear()} Dr. Ricardo Montanari. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Ricardo Montanari. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

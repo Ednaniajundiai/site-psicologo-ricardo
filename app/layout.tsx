@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
 export const metadata: Metadata = {
-  title: "Dr. Ricardo Montanari | Psicólogo Clínico - Junguiano",
+  title: "Ricardo Montanari | Psicólogo Clínico - Junguiano",
   description: "Psicologia Analítica (Junguiana) focada em ansiedade, transição de carreira e desenvolvimento pessoal. Atendimento online e presencial em Jundiaí/SP.",
 };
 

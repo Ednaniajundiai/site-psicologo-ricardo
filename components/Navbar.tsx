@@ -32,7 +32,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link href="/" className="font-serif text-2xl font-bold text-primary">
-          Dr. Ricardo Montanari
+          Ricardo Montanari
         </Link>
 
         {/* Desktop Menu */}
