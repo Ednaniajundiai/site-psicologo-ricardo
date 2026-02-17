@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://ednaniajundiai.github.io/site-psicologo-ricardo/",
+    url: "https://ricardomontanaripsicologia.live/",
     title: "Ricardo Montanari | Psicólogo Clínico",
     description: "Psicologia Analítica focada em desenvolvimento pessoal e saúde mental.",
     siteName: "Ricardo Montanari Psicologia",
